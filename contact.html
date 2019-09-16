@@ -115,7 +115,6 @@ crossorigin="anonymous">
 	<section id="mapa">
 	<div class="container">
 		<div id="map">
-		
 		</div>
 		</div>
 	</section>
@@ -124,11 +123,9 @@ crossorigin="anonymous">
 	<img src="img/1x/Artboard 1.jpg" class="img-fluid" alt="maria-trochez">
 	<p>All rights reserved.</p>
 	</div>
-	</footer>		
-	<script src="js/jquery.min.js"></script>
+	</footer>		<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
-	<script src="js/gmaps.js"></script>
 	<script src="js/wow.min.js"></script>
 	<script>new 
 		WOW().init();
@@ -163,36 +160,18 @@ $(".app-carousel").owlCarousel({
 });
 
 </script>
-<!-- path gMaps.js -->
+		   
+		   
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147068639-1"></script>
 <script>
-$(function () {
-	
-	$(window).load(function(){
-		mostrarMapa();
-	});
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-	function mostrarMapa(){
-		var map;
-		var mLat = 14.048399; //latitud
-		var mLng = -87.174078; //longitud
+  gtag('config', 'UA-147068639-1');
+</script>
 
-		map = new GMaps({
-			div: '#map', //id del <div> donde se mostrará el mapa.
-			lat: mLat,
-			lng: mLng,
-			zoom: 18
-		  });
-		map.addMarker({
-		  lat: mLat,
-		  lng: mLng,
-		  title: 'Nuestra ubicación en gMaps',
-		  infoWindow: {
-			content: '<p>UNITEC - Univ. Tecnológica de Honduras</p>'
-		  }
-		});	
-		
-	}
-});
-</script>		   
 </body>
 </html>
