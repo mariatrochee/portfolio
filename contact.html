@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>Contact</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-custom.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<meta name="Description" content="A mind in the form of art.">
+	<meta name="Keywords" content="fotografía, arte visual, artes visuales, audiovisual, fotógrafos, fotógrafo honduras, honduras, comunicación">
+</head>
+
+<body>
+	<header>
+		<div class="container-fluid">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html"><img src="img/1x/mariatrochezlogol.png" class="img-fluid" alt="logo oshine"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Portfolio</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+		<li class="nav-item  active">
+          <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    	</ul>
+  </div>
+</nav>
+	</div>
+</header>
+	<section id="contact">
+	<container>
+	<h1>Contact</h1>
+	</container>
+	</section>
+			<section id="content">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-6 col-sm-12">
+					<h3 class="text-uppercase"></h3>
+					<br>
+					<h3> Let's Talk! || ¡Hablemos!</h3>
+					<br>
+					<p><i class="fas fa-phone"></i>(+504) 9475 5312</p><br>
+					<p><i class="far fa-envelope-open"></i>mariafernandatrochee@gmail.com</p>
+				</article>
+				
+				<article class="col-md-6 col-sm-12">
+					<form id="form" name="form" action="" method="post">
+						<br>
+						<div class="row">
+						<div class="form-group col-md-6">
+							<input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre">
+						</div>
+						
+						<div class="form-group col-md-6">
+							<input type="email" id="correo" name="Correo" class="form-control" required placeholder="E-mail">
+						</div>
+							
+						</div>
+						<div class="row">
+						<div class="form-group col-md-6 col-sm-12">
+							<select id="subject" name="subject" class="form-control">
+								<option value="consulta">Te llamamos</option>
+								<option value="si">Si</option>
+								<option value="no">No</option>
+							</select>
+							</div>
+							<div class="form-group col-md-6 col-sm-12">
+							<input type="Telefono" id="Telefono" name="Telefono" class="form-control" placeholder="Teléfono">
+						</div>
+						</div>
+						<div class="form-group">
+							<textarea id="messages" name="messages" class="form-control" placeholder="Messages" rows="8"></textarea>
+						</div>
+						
+						<div class="form-group">
+							<button type="submit" class="btn btn-success btn-verde btn-block">Submit</button>
+						
+						</div>
+						</form>
+				</article>
+			</div>
+		</div>
+	</section>
+	<section id="mapa">
+	<div class="container">
+		<div id="map">
+		</div>
+		</div>
+	</section>
+			<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>new 
+		WOW().init();
+	</script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script>
+
+$(function(){
+
+$(".app-carousel").owlCarousel({
+				items: 1,
+				loop: true,
+				autoplay: true,
+				smartSpeed: 800,
+				margin: 30,
+				center: true,
+				dots: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					480: {
+						items: 3
+					},
+					992: {
+						items: 5
+					}
+				}
+			});
+
+
+});
+
+</script>
+		   
+		   
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147068639-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147068639-1');
+</script>
+
+</body>
+</html>

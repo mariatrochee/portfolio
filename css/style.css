@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(´https://fonts.googleapis.com/css?family=Abril+Fatface|Playfair+Display&display=swap´);
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@font-face 
+{font-family: ´Abril Fatface´;
+src:url("../fonts/AbrilFatface-Regular.ttf");
+}
+@font-face{
+	font-family: ´Playfair Display´;
+	src: url("../fonts/PlayfairDisplay-Regular.ttf")
+}
+@font-face{
+	font-family: ´Nunito´;
+	src: url("../fonts/Nunito-Regular.ttf");
+}
+body{
+font-size: 16px;
+color:rgba(90,90,90,1.00);
+font-family: Nunito;
+line-height: 30px;
+}
+
+header{
+	background-color: transparent !important;
+	padding: 20px 0px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	color: #000000;
+}
+.navbar-nav .fab{
+	background-color: #D9A84B;
+	border-radius: 100%;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color:#ffffff;
+	z-index: 100px;
+}
+.navbar-nav .fab:hover{
+	color:#ffffff;
+}
+
+.navbar{
+background-color: transparent;
+}
+
+.bg-light{
+	background-color: transparent;
+}
+ li {
+     display: inline;
+         }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+	color:rgba(0,0,0,1.00);
+	text-decoration: none;
+}
+#hero{
+	background-image: url("../img/1x/Artboard 1-50.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10% 0;
+	color: #ffffff;
+	position: relative;
+	height: 100vh;
+}
+
+h1{
+	color:#ffffff;
+	font-family: abril fatface;
+	font-size: 90px;
+	margin-top: 10px;
+	margin-left: 20px;
+	text-align: left;
+}
+
+#about{
+	background-image: url("../img/1x/about-header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10% 0;
+	color: #ffffff;
+	position: relative;
+	height: 65vh;
+}
+
+#about h1{
+	padding-left: 40px;
+	margin-top: 150px;
+}
+
+#profile{
+	padding: 8% 0;
+}
+
+.titulo{
+	font-family: Abril Fatface;
+	font-size: 50px;
+}
+
+#contact{
+	background-image: url("../img/1x/contactheadercontact.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10% 0;
+	color: #ffffff;
+	position: relative;
+	height: 65vh;
+}
+
+#form{
+	padding: 10% 0;
+}
+
+h3{
+font-family: abril fatface;
+font-size: 40px;
+color: #000000;
+}
+.btn-success{
+	border-radius: 15px;
+	border-color: transparent;
+	background-color: #D9A84B;
+	font-family: Nunito;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-size: 14px;
+	padding: 10px 0px;
+}
+.btn-success:hover{
+	border-radius: solid 25px #D9A84B;
+	border-color: #D9A84B;
+	background-color: #ffffff;
+	font-family: Nunito;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #D9A84B;
+}
+#profile a{
+	text-decoration: none;
+	border-color: #d9a84b;
+}
+
+#map{
+	width: 100%;
+	height: 300px;
+}
