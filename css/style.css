@@ -30,8 +30,9 @@ header{
 	z-index: 100;
 	color: #000000;
 }
-.navbar-nav .fab{
+.fab{
 	background-color: #D9A84B;
+	display: 20%;
 	border-radius: 100%;
 	width: 30px;
 	height: 30px;
@@ -40,7 +41,21 @@ header{
 	color:#ffffff;
 	z-index: 100px;
 }
-.navbar-nav .fab:hover{
+.fab:hover{
+	color:#ffffff;
+}
+.fas{
+	background-color: #D9A84B;
+	display: 20%;
+	border-radius: 100%;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color:#ffffff;
+	z-index: 100px;
+}
+.fas:hover{
 	color:#ffffff;
 }
 
@@ -110,6 +125,31 @@ h1{
 	font-size: 50px;
 }
 
+#services{
+	background-image: url("../img/1x/contactheaderabout.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 10% 0;
+	color: #ffffff;
+	position: relative;
+	height: 65vh;
+}
+
+#services h1{
+	padding-left: 40px;
+	margin-top: 150px;
+}
+
+#we-do h4{
+	font-family: Abril Fatface;
+	font-weight: 300;
+	padding-top: 3%;
+}
+
+#we-do .row{
+	padding-bottom: 3%;
+}
 #contact{
 	background-image: url("../img/1x/contactheadercontact.jpg");
 	background-repeat: no-repeat;
@@ -125,10 +165,8 @@ h1{
 	padding: 10% 0;
 }
 
-h3{
-font-family: abril fatface;
-font-size: 40px;
-color: #000000;
+#form .titulo{
+	padding-top: 5%;
 }
 .btn-success{
 	border-radius: 15px;
@@ -155,7 +193,26 @@ color: #000000;
 	border-color: #d9a84b;
 }
 
+#we-do{
+	padding: 5% 0;
+	text-align: center;
+	
+}
+
+.slide-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0,0,0,0.55);
+}
 #map{
 	width: 100%;
 	height: 300px;
+}
+
+footer{
+	text-align: center;
+	padding: 5% 0;
 }
